@@ -2,6 +2,7 @@
 import functions
 import time
 
+print("Time is below")
 now = time.strftime("%b %d %Y %H %M %S")
 print(f"It is {now}")
 
@@ -68,3 +69,4 @@ while True:
         print("Hey, you have entered an unknown command")
 
 print("Bye!")
+
